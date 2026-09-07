@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Himanshi Sharma, aspiring data analyst." />
+  <title>Himanshi Sharma | Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+  <header class="navbar">
+    <a class="logo" href="#home">HS<span>.</span></a>
+    <nav id="navMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">ASPIRING DATA ANALYST</p>
+        <h1>Turning <span>data</span> into decisions.</h1>
+        <p class="hero-text">
+          I am <strong>Himanshi Sharma</strong>, an aspiring Data Analyst skilled in SQL, Python, Microsoft Excel and Power BI.
+          I enjoy transforming raw data into clear insights, interactive dashboards and meaningful business stories.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore My Work <span>↗</span></a>
+          <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong data-count="5">0</strong><span>Certificates</span></div>
+          <div><strong data-count="2">0</strong><span>Projects</span></div>
+          <div><strong data-count="100">0</strong><span>+ Problems Solved</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="profile-orbit">
+          <div class="orbit-ring ring-one"></div>
+          <div class="orbit-ring ring-two"></div>
+          <div class="photo-frame">
+            <img src="assets/profile.jpeg" alt="Professional profile of Himanshi Sharma">
+          </div>
+          <div class="floating-card card-python">PYTHON</div>
+          <div class="floating-card card-sql">SQL</div>
+          <div class="floating-card card-powerbi">POWER BI</div>
+        </div>
+        <div class="photo-badge">
+          <span>CURRENT FOCUS</span>
+          <strong>Data &amp; Business Analytics</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>Curious mind.<br><em>Analytical approach.</em></h2>
+      </div>
+      <div class="about-content reveal">
+        <p>
+          I am currently pursuing a <strong>Bachelor of Technology in Information Technology</strong> at RD Engineering College (AKTU).
+          My interest in analytics comes from enjoying the process of asking questions, exploring patterns and presenting answers in a simple visual form.
+        </p>
+        <div class="info-grid">
+          <div><span>Education</span><strong>B.Tech IT</strong><small>Expected 2027</small></div>
+          <div><span>CGPA</span><strong>7.35 / 10.0</strong><small>Current academic record</small></div>
+          <div><span>Location</span><strong>Hapur</strong><small>Uttar Pradesh, India</small></div>
+          <div><span>Academic Field</span><strong>Data Analyst / Business Analyst</strong><small>Business intelligence & insights</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / TECHNICAL SKILLS</p>
+        <h2>My <em>analytics toolkit.</em></h2>
+      </div>
+      <div class="skill-layout">
+        <article class="skill-block reveal">
+          <span class="skill-number">01</span>
+          <h3>Programming</h3>
+          <p>Python and SQL for querying, data processing and analytical problem solving.</p>
+          <div class="chips"><span>Python</span><span>SQL</span></div>
+        </article>
+        <article class="skill-block reveal">
+          <span class="skill-number">02</span>
+          <h3>Data Analysis</h3>
+          <p>Data cleaning, EDA, statistical analysis and extracting useful business insights.</p>
+          <div class="chips"><span>Excel</span><span>Pandas</span><span>NumPy</span><span>EDA</span></div>
+        </article>
+        <article class="skill-block reveal">
+          <span class="skill-number">03</span>
+          <h3>Visualization</h3>
+          <p>Interactive dashboards and visual storytelling for clear decision-making.</p>
+          <div class="chips"><span>Power BI</span><span>Power Query</span><span>DAX</span><span>Matplotlib</span></div>
+        </article>
+        <article class="skill-block reveal">
+          <span class="skill-number">04</span>
+          <h3>Business Intelligence</h3>
+          <p>Understanding trends, KPIs and data models to support business decisions.</p>
+          <div class="chips"><span>ETL</span><span>Data Modeling</span><span>Data Validation</span><span>Reporting</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / FEATURED PROJECTS</p>
+        <h2>Work that makes<br><em>numbers speak.</em></h2>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-meta"><span>PROJECT 01</span><span>POWER BI</span></div>
+        <div class="project-main">
+          <h3>Mobile Sales Dashboard</h3>
+          <p class="project-summary">
+            An interactive business dashboard created to monitor mobile sales performance, compare brands and models,
+            understand customer preferences and identify trends across city, payment method and time.
+          </p>
+          <div class="impact-grid">
+            <div><b>01</b><span>KPI cards track Total Sales, Revenue, Quantity Sold, Ratings and Transactions.</span></div>
+            <div><b>02</b><span>Power Query cleans and transforms raw sales data before analysis.</span></div>
+            <div><b>03</b><span>DAX measures calculate business metrics for faster performance analysis.</span></div>
+            <div><b>04</b><span>Charts compare brands, models, payment methods, cities and time periods.</span></div>
+            <div><b>05</b><span>Interactive slicers help users filter data and discover patterns dynamically.</span></div>
+          </div>
+        </div>
+        <div class="tech-stack">
+          <span>Power BI</span><span>Power Query</span><span>DAX</span><span>Data Modeling</span><span>Data Visualization</span>
+        </div>
+        <a class="project-github" href="https://github.com/himanshisharma1106/Mobile-Sales-Analysis-Dashboard-project-" target="_blank" rel="noopener">View Project on GitHub ↗</a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-meta"><span>PROJECT 02</span><span>EXCEL</span></div>
+        <div class="project-main">
+          <h3>Blinkit Sales Dashboard</h3>
+          <p class="project-summary">
+            A data analysis dashboard built to study Blinkit sales performance and highlight product categories,
+            outlet trends, customer ratings and top-performing products for actionable business insights.
+          </p>
+          <div class="impact-grid">
+            <div><b>01</b><span>Excel formulas and cleaning techniques prepare raw data for analysis.</span></div>
+            <div><b>02</b><span>Pivot Tables summarize sales, averages and product-category performance.</span></div>
+            <div><b>03</b><span>Interactive charts convert large tables into easy-to-understand insights.</span></div>
+            <div><b>04</b><span>Top-performing products and outlet-level trends are highlighted for comparison.</span></div>
+            <div><b>05</b><span>Customer ratings and sales patterns support better business interpretation.</span></div>
+          </div>
+        </div>
+        <div class="tech-stack">
+          <span>Microsoft Excel</span><span>Pivot Tables</span><span>Excel Formulas</span><span>Data Cleaning</span><span>Charts</span>
+        </div>
+        <a class="project-github" href="https://github.com/himanshisharma1106/Blinikit-Slaes-Analysis-Dashboard-project" target="_blank" rel="noopener">View Project on GitHub ↗</a>
+      </div>
+    </section>
+
+
+    <section id="experience" class="section experience-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / EXPERIENCE</p>
+        <h2>Learning beyond<br><em>the classroom.</em></h2>
+      </div>
+      <div class="experience-card reveal">
+        <div class="experience-top">
+          <div>
+            <span class="experience-label">INTERNSHIP OFFER</span>
+            <h3>Logistics Data Analyst Intern</h3>
+            <p class="company-name">YuvaIntern</p>
+          </div>
+          <div class="experience-badge">REMOTE<br><span>4 WEEKS</span></div>
+        </div>
+        <div class="experience-details">
+          <div><span>Start Date</span><strong>July 30, 2026</strong></div>
+          <div><span>End Date</span><strong>August 27, 2026</strong></div>
+          <div><span>Role</span><strong>Logistics Data Analyst Intern</strong></div>
+          <div><span>Location</span><strong>Remote</strong></div>
+        </div>
+        <p class="experience-description">
+          Offered an internship opportunity focused on collecting, analyzing and interpreting supply-chain and logistics data,
+          identifying trends, supporting process optimization and preparing reports for decision-making.
+        </p>
+        <div class="experience-points">
+          <div><b>01</b><span>Collect and organize logistics and supply-chain related data.</span></div>
+          <div><b>02</b><span>Analyze data to identify trends and useful operational insights.</span></div>
+          <div><b>03</b><span>Support process optimization using data-driven observations.</span></div>
+          <div><b>04</b><span>Generate reports to support informed business decisions.</span></div>
+        </div>
+        <a class="offer-button" href="assets/himanshi-sharma-internship-offer-letter.pdf" target="_blank" rel="noopener">
+          View Complete Internship Offer Letter <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="certificates" class="section certificates-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 / CERTIFICATIONS</p>
+        <h2>Learning with<br><em>proof.</em></h2>
+        <p class="certificate-note">Click any certificate to read a quick summary and view the complete certificate.</p>
+      </div>
+      <div class="cert-grid">
+        <button class="cert-card reveal" data-title="Business Analysis Basics" data-org="Simplilearn SkillUp" data-detail="Completed foundational training in business analysis, including understanding business needs and supporting data-informed decisions." data-img="assets/business-analysis.jpeg">
+          <span class="cert-index">01</span><span class="cert-org">Simplilearn SkillUp</span><h3>Business Analysis Basics</h3><span class="view-cert">View Certificate ↗</span>
+        </button>
+        <button class="cert-card reveal" data-title="SQL for Data Analysis" data-org="Simplilearn SkillUp" data-detail="Built knowledge of using SQL concepts for working with data and supporting analysis through structured queries." data-img="assets/sql-data-analysis.jpeg">
+          <span class="cert-index">02</span><span class="cert-org">Simplilearn SkillUp</span><h3>SQL for Data Analysis</h3><span class="view-cert">View Certificate ↗</span>
+        </button>
+        <button class="cert-card reveal" data-title="GenAI Powered Data Analytics Job Simulation" data-org="Tata × Forage" data-detail="Completed a job simulation focused on data analytics tasks and the use of generative AI in an analytical business workflow." data-img="assets/tata-genai.jpeg">
+          <span class="cert-index">03</span><span class="cert-org">Tata × Forage</span><h3>GenAI Powered Data Analytics Job Simulation</h3><span class="view-cert">View Certificate ↗</span>
+        </button>
+        <button class="cert-card reveal" data-title="Data Analytics Job Simulation" data-org="Quantum × Forage" data-detail="Completed practical simulated tasks covering data preparation, analysis and the interpretation of insights in a business context." data-img="assets/quantum-data-analytics.jpeg">
+          <span class="cert-index">04</span><span class="cert-org">Quantum × Forage</span><h3>Data Analytics Job Simulation</h3><span class="view-cert">View Certificate ↗</span>
+        </button>
+        <button class="cert-card reveal" data-title="Microsoft Excel Beginners To Advance" data-org="Skill Course" data-detail="Completed Excel training from beginner to advanced level, strengthening spreadsheet, formula and data-analysis skills." data-img="assets/excel-certificate.jpeg">
+          <span class="cert-index">05</span><span class="cert-org">Skill Course</span><h3>Microsoft Excel Beginners To Advance</h3><span class="view-cert">View Certificate ↗</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-box reveal">
+        <p class="eyebrow">06 / LET'S CONNECT</p>
+        <h2>Have data?<br><em>Let's find the story.</em></h2>
+        <p>I am open to learning opportunities, internships and collaborations in Data Analytics.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:himanshisharma110605@gmail.com">Email Me <span>↗</span></a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/himanshi-sharma-03848b420" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn btn-secondary" href="https://github.com/himanshisharma1106" target="_blank" rel="noopener">GitHub ↗</a>
+          <button class="btn btn-secondary" id="copyEmail" data-email="himanshisharma110605@gmail.com">Copy Email</button>
+        </div>
+        <div class="contact-line">
+          <a href="mailto:himanshisharma110605@gmail.com">himanshisharma110605@gmail.com</a>
+          <a href="https://www.linkedin.com/in/himanshi-sharma-03848b420" target="_blank" rel="noopener">LinkedIn Profile</a>
+          <a href="https://github.com/himanshisharma1106" target="_blank" rel="noopener">GitHub Profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Himanshi Sharma</span>
+    <span>Built with curiosity, data & clean design.</span>
+  </footer>
+
+  <div class="modal" id="certModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-content">
+      <button class="modal-close" data-close="true" aria-label="Close">×</button>
+      <div class="modal-info">
+        <p class="eyebrow" id="modalOrg">CERTIFICATE</p>
+        <h2 id="modalTitle">Certificate Title</h2>
+        <p id="modalDetail"></p>
+        <span class="modal-tip">Complete certificate is displayed on the right.</span>
+      </div>
+      <div class="modal-image-wrap"><img id="modalImage" src="" alt="Certificate"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Email copied to clipboard.</div>
+  <script src="script.js"></script>
+</body>
+</html>
